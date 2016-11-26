@@ -30,6 +30,6 @@ function watch(done) {
 }
 
 gulp.task('deploy', function() {
-  return gulp.src('./src/**/*')
+  return gulp.src('./dist/**/*')
     .pipe(ghPages());
 });
